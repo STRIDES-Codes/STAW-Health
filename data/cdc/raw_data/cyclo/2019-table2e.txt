@@ -1,0 +1,208 @@
+TABLE 2e. Annual reported cases of notifiable diseases, by region and reporting area, United States and U.S. Territories, excluding Non-U.S. Residents*, 2019<sup class= 'nndss-sup-title'>&dagger;</sup>
+
+column labels in same order that data fields appears in each record below:
+Reporting Area
+Cholera 
+Coccidioidomycosis <sup>§</sup>
+Cryptosporidiosis, Total 
+Cryptosporidiosis, Confirmed 
+Cryptosporidiosis, Probable 
+Cyclosporiasis 
+
+tab delimited data:
+U.S. Residents, excluding U.S. Territories	14	18,407	13,975	10,185	3,790	4,703
+New England	3	2	539	430	109	360
+Connecticut	2	N	80	74	6	103
+Maine	—	N	71	49	22	—
+Massachusetts	1	N	231	221	10	211
+New Hampshire	—	1	65	12	53	9
+Rhode Island	—	1	63	61	2	31
+Vermont	—	N	29	13	16	6
+Middle Atlantic	2	—	1,684	1,395	289	761
+New Jersey	1	N	288	268	20	263
+New York (excluding New York City)	—	N	486	429	57	305
+New York City	1	N	397	397	—	193
+Pennsylvania	—	N	513	301	212	N
+East North Central	4	74	2,557	1,901	656	573
+Illinois	1	N	407	302	105	164
+Indiana	—	—	321	264	57	31
+Michigan	2	40	415	351	64	127
+Ohio	—	21	685	495	190	142
+Wisconsin	1	13	729	489	240	109
+West North Central	3	141	1,982	1,414	568	388
+Iowa	—	N	558	325	233	121
+Kansas	—	N	139	117	22	23
+Minnesota	3	94	487	415	72	137
+Missouri	—	30	400	303	97	61
+Nebraska	—	6	193	174	19	36
+North Dakota	—	3	38	15	23	N
+South Dakota	—	8	167	65	102	10
+South Atlantic	1	8	2,194	1,388	806	1,187
+Delaware	—	—	39	22	17	5
+District of Columbia	—	N	31	29	2	37
+Florida	—	N	662	262	400	543
+Georgia	—	N	364	364	—	77
+Maryland	1	8	107	99	8	220
+North Carolina	—	N	286	264	22	76
+South Carolina	—	N	111	109	2	24
+Virginia	—	N	520	180	340	201
+West Virginia	—	N	74	59	15	4
+East South Central	—	13	937	686	251	71
+Alabama	—	9	225	103	122	5
+Kentucky	—	4	341	234	107	N
+Mississippi	—	N	124	123	1	N
+Tennessee	—	N	247	226	21	66
+West South Central	—	29	1,881	1,324	557	1,171
+Arkansas	—	10	142	136	6	34
+Louisiana	—	19	355	218	137	100
+Oklahoma	—	N	194	167	27	N
+Texas	—	N	1,190	803	387	1,037
+Mountain	1	10,728	967	696	271	120
+Arizona	—	10,359	143	119	24	17
+Colorado	—	N	269	194	75	58
+Idaho	—	N	131	114	17	N
+Montana	—	17	72	72	—	2
+Nevada	1	117	50	29	21	N
+New Mexico	—	164	83	72	11	16
+Utah	—	69	197	76	121	22
+Wyoming	—	2	22	20	2	5
+Pacific	—	7,412	1,234	951	283	72
+Alaska	—	N	12	7	5	—
+California	—	7,408	727	648	79	50
+Hawaii	—	N	9	9	—	—
+Oregon	—	4	254	82	172	5
+Washington	—	N	232	205	27	17
+U.S. Territories	—	1	—	—	—	—
+American Samoa	—	N	N	N	N	N
+Commonwealth of Northern Mariana Islands	—	—	—	—	—	—
+Guam	—	1	—	—	—	—
+Puerto Rico	—	N	—	—	—	—
+U.S. Virgin Islands	—	—	—	—	—	—
+
+—: No reported cases - The reporting jurisdiction did not submit any cases to CDC.
+N: Not reportable - The disease or condition was not reportable by law, statute, or regulation in the reporting jurisdiction.
+U: Unavailable - The data are unavailable.
+
+* The 2019 annual tables exclude cases of nationally notifiable conditions and diseases among non-U.S. residents. As a result, data in Table 2 does not include a "Non-U.S. Resident" or "Total" row, that would have been included in the table had the data been stratified into the following four categories, based upon the "country of usual residence" (COUR) algorithm: U.S. Residents, excluding U.S. Territories; U.S. Territories; Non-US. Residents; and Total.Table 2 for the 2019 annual tables only includes the first two of these stratification categories. 
+
+† To calculate rates, use the populations provided in Table 8. Note that calculation of rates for the following conditions use population subsets presented in Table 8: Zika virus infection, congenital; Zika virus disease, congenital; Infant botulism; Congenital rubella syndrome; Perinatal Hepatitis B infection, Perinatal Hepatitis C infection,  Haemophilus influenzae, invasive disease and Invasive pneumococcal disease, and Influenza associated pediatric mortality; see Table 8 (population reference table). Also see notes 3 and 7.
+
+§ Reportable in <25 states.
+
+
+Notes:
+
+	These are annual cases of selected infectious 
+	national notifiable diseases from the National Notifiable Diseases Surveillance System (NNDSS). 
+	NNDSS data reported by the 50 states, New York City, the District of Columbia, and the U.S. territories are 
+	collated and published. Cases are reported by state health departments to CDC weekly. Because source datasets 
+	may be updated as additional information is received, statistics in publications based on that source data may 
+	differ from what is presented in these tables. 
+
+	The list of national notifiable infectious diseases and conditions for 2019 and their national surveillance case definitions are 
+	available by navigating to the https://ndc.services.cdc.gov/, Surveillance Case Definitions | CDC  web page, selecting 
+	"2019" for the notifiable condition list year, checking "infectious" conditions, and clicking "Get Notifiable List by Year".
+  This list incorporates the Council of State and Territorial Epidemiologists (CSTE) position statements approved in 2018 by CSTE for 
+  national surveillance that were implemented in January 2019.  Candida auris, clinical became a new national notifiable condition,
+  and revised case definitions were implemented for the following conditions: diphtheria, acute hepatitis A, listeriosis, yellow fever, 
+  Salmonella Paratyphi infection and Salmonella Typhi infection. Salmonella Paratyphi infection 
+  and Salmonella Typhi infection replaced Paratyphoid fever and Typhoid fever, respectively, as national notifiable 
+  conditions. Salmonellosis (excluding S. Typhi infection and S. Paratyphi infection) replaced Salmonellosis (excluding paratyphoid fever and typhoid fever) as a national notifiable condition. 
+  In addition, Carbapenemase Producing Carbapenem-Resistant Enterobacteriaceae (CP-CRE) represents a consolidation of CP-CRE species 
+   Klebsiella spp, CP-CRE E. coli, and CP-CRE Enterobacter spp.  Publication criteria for the finalized 2019 data are available at 
+	https://wonder.cdc.gov/nndss/documents/2019_NNDSS _Publication_Criteria_01212021.pdf, https://wonder.cdc.gov/nndss/documents/2019_NNDSS _Publication_Criteria_01212021.pdf.   
+	See also https://www.cdc.gov/nndss/docs/Readers-Guide-WONDER-Tables-20210421-508.pdf, 
+	Guide to Interpreting Provisional and Finalized NNDSS Data. 
+	Population estimates for incidence rates are July 1st, 2019, estimates obtained from the National Center for Health Statistics (NCHS) 
+	postcensal estimates of the resident population of the United States for April 1, 2010, to July 1, 2019, by year, county, single year 
+	of age (range: 0 to 85 years), bridged-race (white, black or African American, American Indian or Alaska Native, Asian, 
+	or Pacific Islander), Hispanic ethnicity (not Hispanic or Latino, Hispanic or Latino), and sex (Vintage 2019), 
+	prepared under a collaborative arrangement with the U.S. Census Bureau. Population estimates for states released 
+	July 9, 2020, are available at 
+	https://www.cdc.gov/nchs/nvss/bridged_race/data_documentation.htm, https://www.cdc.gov/nchs/nvss/bridged_race/data_documentation.htm. 
+	Population estimates for territories are the 2019 mid-year estimates from the U.S. Census Bureau International Data Base, accessed on 
+	August 6, 2020, at  
+	https://www.census.gov/data-tools/demo/idb/#/country?YR_ANIM=2021, https://www.census.gov/data-tools/demo/idb/#/country?YR_ANIM=2021. 
+	The choice of population denominators for incidence is based on the availability of population data at the time of publication preparation. 
+
+	Annual tables for 2016 and later years are available on https://wonder.cdc.gov/nndss/nndss_annual_tables_menu.asp, CDC WONDER.
+
+	Annual summary reports from 1993&#8211;2015 are available as published in the 
+	https://www.cdc.gov/mmwr/mmwr_nd/index.html, Morbidity and Mortality Weekly Report.
+
+	NNDSS annual tables since 1952 are available at https://stacks.cdc.gov/nndss, CDC Stacks
+	(once in CDC Stacks, select "Annual Reports" in the "Genre" box to the left).  
+
+	For most conditions, national incidence rates are calculated as the number of reported cases for each infectious 
+	disease or condition divided by the U.S. resident population for the specified demographic population or the total U.S. 
+	resident population, multiplied by 100,000. When a national notifiable infectious condition is associated with a 
+	specific age restriction, the same restriction was applied to the population in the denominator of the incidence rate 
+	calculation. In addition, population data from reporting jurisdictions in which the disease or condition was not reportable 
+	or not available were excluded from the denominator of the incidence rate calculations.
+	
+		Age restrictions in the numerator and denominator are applied for the following childhood conditions:
+		
+		
+			Zika virus disease, congenital (age restriction in numerator and denominator is <1 year)
+		
+			Zika virus infection, congenital (age restriction in numerator and denominator is <1 year)
+		
+			Haemophilus influenzae, invasive disease <5 years (age restriction in numerator and denominator is <5 years) 
+		
+			Invasive pneumococcal disease <5 years (age restriction in numerator and denominator is <5 years) 
+		
+			Influenza associated pediatric mortality (age restriction in numerator and denominator is <18 years)
+		
+			Infant botulism (age restriction in numerator and denominator is <1 year) 
+		
+			Congenital rubella syndrome (age restriction in numerator and denominator is  <1 year)
+		
+			Perinatal Hepatitis B infection (age restriction in numerator is &le;24 months, denominator is <24 months) 
+		
+			Perinatal Hepatitis C infection (age restriction in numerator is &le;36 months, denominator is <36 months). 
+		
+	
+	
+			
+			Data for congenital syphilis are aggregated by the infant's year of birth.  The rate for congenital syphilis is based upon the 
+			number of reported cases per 100,000 live births, using  natality data for 2019 (National Center for Health Statistics https://wonder.cdc.gov/natality.html, Natality 2019, as compiled from data
+			provided by the Vital Statistics Cooperative Program).  
+			The mother's race and ethnicity are used for race- and ethnicity-specific rates of congenital syphilis cases.  Congenital syphilis 
+			data are published in Syphilis Statistics in the sexually transmitted diseases (STD) surveillance 
+			report (https://www.cdc.gov/std/syphilis/stats.htm, https://www.cdc.gov/std/syphilis/stats.htm) and in the historical archives of the STD surveillance 
+			report (https://www.cdc.gov/std/stats/archive.htm, https://www.cdc.gov/std/stats/archive.htm). The STD surveillance 
+			report (https://www.cdc.gov/std/syphilis/stats.htm, https://www.cdc.gov/std/syphilis/stats.htm) updates congenital syphilis cases and rates over time.    
+			
+
+	Surveillance data reported by other CDC programs might vary from data reported in these tables because of differences in
+	 1) the date used to aggregate the data, 2) the timing of reports, 3) the source of the data, 4) surveillance case definitions, 
+	 and 5) policies regarding case jurisdiction (i.e., which jurisdiction should submit the case notification to CDC).
+	
+
+
+	The following 24 jurisdictions may have incomplete data, due to the coronavirus disease 2019 (COVID-19) pandemic:  Alaska, California, Connecticut, Delaware, District of Columbia,
+	Florida, Idaho, Indiana, Kansas, Massachusetts, Minnesota, Missouri, Montana, Nebraska, New Hampshire, New York 
+  (excluding New York City), New York City, North Dakota, Ohio, Oklahoma, South Carolina, Tennessee, Texas,  and West Virginia. 
+	In addition, the following 2 U.S. Territories may have incomplete data due to the COVID-19 pandemic: American Samoa and the 
+	U.S. Virgin Islands.
+
+Suggested Citation:
+
+	Centers for Disease Control and Prevention. National Notifiable Diseases Surveillance System, 2019 Annual Tables of Infectious Disease Data. 
+	Atlanta, GA. CDC Division of Health Informatics and Surveillance, 2021. 
+	Available at: https://www.cdc.gov/nndss/data-statistics/infectious-tables/index.html, https://www.cdc.gov/nndss/data-statistics/infectious-tables/index.html.
+
+Acknowledgment:
+
+	CDC acknowledges the local, state, and territorial health departments that collected the data from a range of case ascertainment 
+	sources (e.g., healthcare providers, hospitals, laboratories) and reported these data to 
+	CDC's National Notifiable Diseases Surveillance System.
+
+
+
+https://www.cdc.gov/nndss/, National Notifiable Diseases Surveillance System
+
+Provided by https://wonder.cdc.gov, CDC WONDER
+
+
+

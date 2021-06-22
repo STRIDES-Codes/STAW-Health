@@ -36,7 +36,7 @@ Sydney Foote, Team Lead
 Mark Rustad, Sysadmin  
 Lisa Mayer, Writer  
 Meg Hartwick, Float   
-Sara Jones, Float
+Sara Jones, Float :smile_cat:
 
 
 # How to use the Shiny app

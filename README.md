@@ -36,7 +36,8 @@ Sydney Foote, Team Lead 🌞
 Mark Rustad, Sysadmin  
 Lisa Mayer, Writer  
 Meg Hartwick, Float   
-Sara Jones, Float :smile_cat:
+Sara Jones, Float :smile_cat:   
+Josie Foote, Professional Support 🐶
 
 
 # How to use the Shiny app

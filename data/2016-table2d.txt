@@ -1,0 +1,150 @@
+TABLE 2d. Reported cases of notifiable diseases, by region and reporting area - United States and U.S. territories, 2016
+
+column labels in same order that data fields appears in each record below:
+Reporting Area
+Brucellosis 
+Campylobacteriosis 
+Chancroid 
+Chlamydia trachomatis infection 
+Cholera 
+Coccidioidomycosis *
+Cryptosporidiosis, Total 
+Cryptosporidiosis, Confirmed 
+Cryptosporidiosis, Probable 
+
+tab delimited data:
+United States	127	60,120	7	1,598,354	15	11,829	13,453	8,637	4,816
+New England	2	2,928	1	54,967	2	4	457	395	62
+Connecticut	2	652	—	13,911	—	N	63	63	—
+Maine	—	255	—	4,156	—	N	55	49	6
+Massachusetts	—	1,369	1	26,807	2	N	198	197	1
+New Hampshire	—	222	—	3,467	—	3	53	39	14
+Rhode Island	—	215	—	4,936	—	1	18	15	3
+Vermont	—	215	—	1,690	—	N	70	32	38
+Middle Atlantic	10	7,820	—	200,882	3	—	1,200	918	282
+New Jersey	1	1,907	—	34,519	—	N	198	113	85
+New York (excluding New York City)	5	1,881	—	42,801	1	N	342	334	8
+New York City	2	1,691	—	66,632	2	N	193	193	—
+Pennsylvania	2	2,341	—	56,930	—	N	467	278	189
+East North Central	11	8,324	—	236,374	—	67	3,797	2,130	1,667
+Illinois	3	2,001	—	72,201	—	N	335	180	155
+Indiana	—	1,043	—	30,847	—	1	213	132	81
+Michigan	2	1,631	—	45,936	—	32	434	350	84
+Ohio	3	2,011	—	60,496	—	21	1,941	1,096	845
+Wisconsin	3	1,638	—	26,894	—	13	874	372	502
+West North Central	11	5,944	—	94,654	1	98	2,223	1,447	776
+Iowa	1	1,053	—	12,983	—	N	753	384	369
+Kansas	2	767	—	12,160	—	N	133	100	33
+Minnesota	4	1,515	—	22,685	1	62	464	416	48
+Missouri	1	1,371	—	30,843	—	20	420	279	141
+Nebraska	2	599	—	8,197	—	5	258	207	51
+North Dakota	1	192	—	3,455	—	6	37	24	13
+South Dakota	—	447	—	4,331	—	5	158	37	121
+South Atlantic	5	9,120	2	331,496	5	8	1,800	1,155	645
+Delaware	—	172	—	5,365	—	2	24	14	10
+District of Columbia	—	65	—	7,283	—	—	21	20	1
+Florida	2	3,262	—	94,742	—	N	582	217	365
+Georgia	—	968	—	62,776	1	N	364	364	—
+Maryland	—	821	—	30,658	2	6	117	70	47
+North Carolina	—	1,458	1	58,006	—	N	293	251	42
+South Carolina	2	398	1	28,179	—	N	111	80	31
+Virginia	—	1,580	—	39,666	1	N	244	109	135
+West Virginia	1	396	—	4,821	1	N	44	30	14
+East South Central	2	2,484	1	97,603	—	1	687	378	309
+Alabama	—	692	1	26,901	—	N	334	141	193
+Kentucky	—	779	—	18,286	—	1	139	84	55
+Mississippi	1	268	—	20,112	—	N	47	47	—
+Tennessee	1	745	—	32,304	—	N	167	106	61
+West South Central	53	6,938	—	212,865	—	15	1,163	816	347
+Arkansas	3	528	—	16,737	—	1	76	73	3
+Louisiana	2	580	—	31,727	—	14	129	48	81
+Oklahoma	5	1,163	—	21,449	—	N	223	167	56
+Texas	43	4,667	—	142,952	—	N	735	528	207
+Mountain	7	4,571	1	110,079	1	6,266	1,219	825	394
+Arizona	1	1,241	—	34,923	—	6,101	549	405	144
+Colorado	—	1,101	1	25,569	1	N	206	128	78
+Idaho	3	456	—	5,897	—	N	123	105	18
+Montana	—	373	—	4,416	—	13	62	60	2
+Nevada	2	208	—	14,649	—	87	15	8	7
+New Mexico	1	527	—	13,108	—	24	74	66	8
+Utah	—	502	—	9,457	—	40	169	32	137
+Wyoming	—	163	—	2,060	—	1	21	21	—
+Pacific	26	11,991	2	259,434	3	5,370	907	573	334
+Alaska	2	117	—	5,698	—	N	10	5	5
+California	20	8,465	2	198,155	1	5,358	429	400	29
+Hawaii	3	508	—	6,902	2	N	12	7	5
+Oregon	1	990	—	17,425	—	12	325	62	263
+Washington	—	1,911	—	31,254	—	N	131	99	32
+Territories	—	52	—	8,703	—	—	1	1	—
+American Samoa	—	—	—	—	—	N	N	N	N
+Commonwealth of Northern Mariana Islands	—	—	—	—	—	—	—	—	—
+Guam	—	8	—	934	—	—	—	—	—
+Puerto Rico	—	44	—	7,198	—	N	1	1	—
+U.S. Virgin Islands	—	—	—	571	—	—	—	—	—
+
+—: No reported cases - The reporting jurisdiction did not submit any cases to CDC.
+N: Not reportable - The disease or condition was not reportable by law, statute, or regulation in the reporting jurisdiction.
+U: Unavailable - The data are unavailable.
+
+* Reportable in <25 states.
+
+
+Notes:
+
+	These are annual cases of selected infectious 
+	national notifiable diseases from the 
+	National Notifiable Diseases Surveillance System (NNDSS).  
+	NNDSS data reported by the 50 states, New York City, the District of Columbia, 
+	and the U.S. territories are collated and published. 
+	Cases are reported by state health departments to CDC weekly.  
+	Because source datasets may be updated as additional information is received, statistics in publications 
+	based on that source data may differ from what is presented in these tables. 
+
+	The list of nationally notifiable infectious diseases and conditions for 2016 and their national surveillance case definitions are 
+	available by navigating to the https://ndc.services.cdc.gov/, Surveillance Case Definitions | CDC  web page, selecting 
+	"2016" for the notifiable condition list year, checking "infectious" conditions, and clicking "Get Notifiable List by Year".
+	This list incorporates the Council of State and Territorial Epidemiologists (CSTE) position 
+	statements approved in 2015 by CSTE for national surveillance, that were implemented in 
+	January 2016, including updated surveillance case definitions for acute hepatitis C and chronic 
+	hepatitis C virus infections.  2016 data are reported through June 30, 2017.  
+	Publication criteria for the finalized 2016 data are available at https://wonder.cdc.gov/nndss/documents/2016_NNDSS_Publication_Criteria.pdf, /nndss/documents/2016_NNDSS_Publication_Criteria.pdf.
+	See also https://wwwn.cdc.gov/nndss/document/Users_guide_WONDER_tables_cleared_final.pdf, 
+	Guide to Interpreting Provisional and Finalized NNDSS Data. 
+
+
+	Population estimates for incidence rates are July 1st, 2016 estimates
+	obtained from the National Center for Health Statistics (NCHS) 
+	postcensal estimates of the resident population of the United States for July 1, 2011 - July 1, 2016, 
+	by year, county, single year of age (range: 0 to 85 years), bridged-race 
+	(white, black or African American, American Indian or Alaska Native, Asian, or Pacific Islander), 
+	Hispanic ethnicity (not Hispanic or Latino, Hispanic or Latino),  and sex 
+	(Vintage 2016), prepared under a collaborative arrangement with the U.S. Census Bureau.
+	Population estimates for states as of June 26, 2017 are available at 
+	 https://www.cdc.gov/nchs/nvss/bridged_race/data_documentation.htm, https://www.cdc.gov/nchs/nvss/bridged_race/data_documentation.htm.  
+	 Population estimates for territories are the 2016 mid-year estimates from the U.S. Census Bureau 
+	 International Data Base accessed on July 24, 2017 at 
+	 https://www.census.gov/population/international/data/idb/informationGateway.php, https://www.census.gov/population/international/data/idb/informationGateway.php. 
+	 The choice of population denominators for incidence is based on the availability of population 
+	 data at the time of publication preparation.  
+
+	Annual tables for 2016 and later years are available on https://wonder.cdc.gov/nndss/nndss_annual_tables_menu.asp, CDC WONDER.
+
+	Annual summary reports from 1993-2015 are available as published in the 
+	https://www.cdc.gov/mmwr/mmwr_nd/index.html, MMWR.
+
+	NNDSS annual tables since 1952 are available at https://stacks.cdc.gov/nndss, CDC Stacks
+	(once in CDC Stacks select "Annual Reports" in the "Genre" box to the left).  
+	
+Suggested Citation:
+
+	Centers for Disease Control and Prevention. National Notifiable Diseases Surveillance System, 
+	2016 Annual Tables of Infectious Disease Data. Atlanta, GA. CDC Division of Health Informatics and Surveillance, 2017. 
+	Available at: https://www.cdc.gov/nndss/data-statistics/infectious-tables/index.html, https://www.cdc.gov/nndss/data-statistics/infectious-tables/index.html.
+
+
+https://www.cdc.gov/nndss/, National Notifiable Diseases Surveillance System
+
+Provided by https://wonder.cdc.gov, CDC WONDER
+
+
+

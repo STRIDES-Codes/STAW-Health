@@ -30,7 +30,8 @@ The workflow overview below shows where we got data and how it was processed to 
 # The Team, the team, the team:
 
 Emerging Leaders in Data Science Fellows (ELFs),
-Office of Data Science and Emerging Technologies (ODSET),National Institute of Allergies and Infectious Diseases (NIAID), National Institutes of Health (NIH)  
+Office of Data Science and Emerging Technologies (ODSET),National Institute of Allergies and Infectious Diseases (NIAID), National Institutes of Health (NIH)
+
 Sydney Foote, Team Lead  
 Mark Rustad, Sysadmin  
 Lisa Mayer, Writer  

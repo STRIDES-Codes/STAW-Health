@@ -2,8 +2,6 @@
 shinyServer(function(input, output) {
 # Map #
 
-#map_df1 <- geo_join(states, df, "NAME", "state", how = "inner")
-
         map_df_sub <- reactive({
         subset(map_df1, year == input$year)
                 })
@@ -18,9 +16,9 @@ shinyServer(function(input, output) {
                 map_df_sub() %>% 
                         leaflet() %>%
                         addProviderTiles("OpenStreetMap.HOT") %>%
-                        setView(lng = -93.85, lat = 25.45, zoom = 4) #%>% 
-                        # addLayersControl(baseGroups = c("OpenStreetMap.HOT"),
-                        #                  overlayGroups = c("Cholera"))
+                        setView(lng = -93.85, lat = 25.45, zoom = 4) %>% 
+                        addLayersControl(baseGroups = c("OpenStreetMap.HOT"),
+                                          overlayGroups = c("Cholera"))
                         
         })
         
@@ -28,10 +26,11 @@ shinyServer(function(input, output) {
                 pal <- colorNumeric(palette = 'RdYlBu', domain = map_df_sub()$cholera,
                                     n = 50, reverse = T)
                 leafletProxy("map", data = map_df_sub()) %>% 
-                        # removeShape("Cholera") %>%
-                        # clearControls() %>% 
+                        removeShape("Cholera") %>%
+                        clearControls() %>% 
                         addPolygons(fillColor = ~pal(cholera),
-                                    color = NA) %>% 
+                                    color = NA,
+                                    group = 'Cholera') %>% 
                         addPolylines(color = 'grey', weight = 0.5)
         })
                 

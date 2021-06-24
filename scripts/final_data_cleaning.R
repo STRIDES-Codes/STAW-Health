@@ -52,4 +52,4 @@ CDC_clean <- CDC_clean %>%
   )
 
 final_data <- left_join(CDC_clean, NAWS_NOAA, by = c("region", "year"))
-write.csv(final_data, "./data/final_data.csv")
+write_csv(final_data, "./data/final_data.csv")

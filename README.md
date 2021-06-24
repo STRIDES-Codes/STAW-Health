@@ -6,7 +6,7 @@ This project was part of the [June 2021 Health Disparities Codeathon run by the 
 
 # What are environmental infectious diseases?
 
-We use this term to include any infectious disease that has an environmental component in transmission. This could include mosquito-borne, tick-borne, fungal, zoonotic, waterborne, and soil-based diseases. Our initial tool will focus on Lyme Disease, Cryptosporidosis ("Crypto"), Dengue, and Campylobacteriosis ("Camp").
+We use this term to include any infectious disease that has an environmental component in transmission. This could include mosquito-borne, tick-borne, fungal, zoonotic, waterborne, and soil-based diseases. Our initial tool will focus on Lyme Disease, Cryptosporidosis ("Crypto"), Dengue, Malaria, and Campylobacteriosis ("Camp").
 
 # What is the problem?
 
@@ -45,6 +45,8 @@ National Institutes of Health (NIH)
 
 # How to use the Shiny app
 
+![Shiny Map](mapforcodeathon.PNG)
+
 ## Access the app:
 
 This is an online app that can be accessed by clicking [here](https://meghartwick.shinyapps.io/shiny/)
@@ -52,13 +54,13 @@ This is an online app that can be accessed by clicking [here](https://meghartwic
 
 ## Interact with the app:
 
-1. This will be the first thing you see when you open the app.
-2. This will be the second thing you should do when you get into the app.
-3. etc.
+1. The app will open with a map  of the U.S. and an insert including two drop menus ("Disease", "Year"). 
+2. Use the dropdown menus to toggle between years and diseases. The map will dynamically change, showing disease counts per region of the U.S. 
+3. A second tab ("Data") displays a barchart that also dynamically changes with the dropdown menus.
 
 ## Troubleshooting
 
-Add advice here if needed.
+If the app stops responding, please try reloading the webpage. 
 
 
 # Data sources and analysis
@@ -82,19 +84,19 @@ The NOAA Global Summary of the Year (GSOY) dataset includes a variety of climati
 Further documentation and more data is available through the [NOAA GSOY webpage](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00947).
 
 ## Intermediate datasets
-All analysis was done using R Studio in a virtual environment. 
+All analysis was done using R version 4.1.0 in a virtual RStudio environment. 
 
 ### From NAWS:
 Raw data was transformed into binary dummy variables, aiming to improve interpretability and emphasize criteria of highest interest. Variables associated with increased infectious disease risk were used to calculate a risk score at the individual level. The individual-level risks were averaged by region for each survey year. Since the NAWS dataset ends in 2016, we had to recode the years, 2013-2016, for NAWS to match the years in the CDC dataset, 2016-2019. 
 
 ### From CDC:
-These tables list disease counts for New York City and New York State (excluding New York City) separately; our analysis aggregates these data to represent New York State.
+Data was obtained from the CDC Wonder API, translated from text files into CSV files, then cleaned and aggregated for use in our analysis. These tables listed disease counts for New York City and New York State (excluding New York City) separately; our analysis aggregates these data to represent New York State.
 
 ### From NOAA:
 All data from United States-based weather stations in GSOY was identified and combined. Average yearly temperature (F) and precipitation (in) values were calculated for regions. 
 
 ## Building the Shiny app
-Here we'll write some stuff about coding the app.
+The app was built from R Studio in a virtual environment. Maps were rendered using the R package "leaflet".
 
 
 # Future Functionality

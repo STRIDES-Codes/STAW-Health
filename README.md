@@ -60,17 +60,17 @@ Add advice here if needed.
 
 ## National Agricultural Workers Survey (NAWS)
 
-https://www.dol.gov/agencies/eta/national-agricultural-workers-survey/overview
+https://www.dol.gov/agencies/eta/national-agricultural-workers-survey/overview  
 This survey is conducted by ---- and is designed to assess ----. We used data from years XXXX to XXXX and extracted variables describing ----. These can be seen in summary/codebook here-.
 
 ## CDC National Notifiable Diseases Surveillance System (NNDSS)
 
-https://wonder.cdc.gov/nndss/nndss_annual_tables_menu.asp
+https://wonder.cdc.gov/nndss/nndss_annual_tables_menu.asp  
 This is a repository of data reported by states for notifiable diseases maintained by the US CDC. We extracted yearly summary data from 2016-2019 using their built-in API for the diseases of interest (Lyme, Cryptosporidosis ("Crypto"), Dengue, and Campylobacteriosis ("Camp")).
 
 ## National Oceanic and Atmospheric Administration (NOAA)
 
-https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00947
+https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00947  
 This dataset includes various climate measures. We extracted ---- due to their link with the environmental diseases off interest.
 
 ## Intermediate datasets

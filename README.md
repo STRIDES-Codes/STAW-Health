@@ -88,7 +88,7 @@ All analysis was done using R Studio in a virtual environment.
 Raw data was transformed into binary dummy variables, aiming to improve interpretability and emphasize criteria of highest interest. Variables associated with increased infectious disease risk were used to calculate a risk score at the individual level. The individual-level risks were averaged by region for each survey year.
 
 ### From CDC:
-These tables list disease counts for New York City and New York State (excluding New York City) separately; our analysis aggregates these data, which represents New York State.
+These tables list disease counts for New York City and New York State (excluding New York City) separately; our analysis aggregates these data to represent New York State.
 
 ### From NOAA:
 All data from United States-based weather stations in GSOY was identified and combined. Average yearly temperature (F) and precipitation (in) values were calculated for regions. 

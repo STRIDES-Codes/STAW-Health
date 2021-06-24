@@ -113,3 +113,9 @@ clean_CDC <- bind_rows(df_2016, df_2017, df_2018, df_2019)
 
 write_csv(clean_CDC,
           file = "~/Spatial-forecasting-of-environmental-infectious-diseases-within-vulnerable-populations/data/cdc/clean_CDC.csv")
+
+clean_CDC_short <- clean_CDC %>%
+  select(ReportingArea:Year, Campylobacteriosis, `Cryptosporidiosis, Total`, `Lyme disease, Total`, `Dengue virus infections, Dengue`, Malaria, Cyclosporiasis)
+
+write_csv(clean_CDC_short,
+          file = "~/Spatial-forecasting-of-environmental-infectious-diseases-within-vulnerable-populations/data/cdc/clean_CDC_short.csv")

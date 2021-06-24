@@ -45,6 +45,8 @@ National Institutes of Health (NIH)
 
 # How to use the Shiny app
 
+![Shiny Map](mapforcodeathon.PNG)
+
 ## Access the app:
 
 This is an online app that can be accessed by clicking [here](https://meghartwick.shinyapps.io/shiny/)

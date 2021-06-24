@@ -1,0 +1,144 @@
+TABLE 2e. Reported cases of notifiable diseases, by region and reporting area - - United States and U.S. territories, 2017
+
+column labels in same order that data fields appears in each record below:
+Reporting Area
+Cyclosporiasis 
+Dengue virus infections, Dengue *
+Dengue virus infections, Dengue-like illness *
+Dengue virus infections, Severe dengue *
+Diphtheria 
+Ehrlichiosis and Anaplasmosis, Anaplasma phagocytophilum infection 
+Ehrlichiosis and Anaplasmosis, Ehrlichia chaffeensis infection 
+Ehrlichiosis and Anaplasmosis, Ehrlichia ewingii infection 
+Ehrlichiosis and Anaplasmosis, Undetermined ehrlichiosis/anaplasmosis 
+
+tab delimited data:
+United States	1,194	437	8	9	—	5,762	1,642	45	269
+New England	67	12	—	—	—	2,819	130	1	24
+Connecticut	33	6	—	—	—	81	—	N	N
+Maine	—	—	—	—	—	663	10	—	10
+Massachusetts	25	5	—	—	—	1,208	17	—	1
+New Hampshire	4	—	—	—	—	317	18	1	6
+Rhode Island	5	1	—	—	—	151	74	—	—
+Vermont	—	—	—	—	—	399	11	—	7
+Middle Atlantic	138	65	1	1	—	1,444	267	2	35
+New Jersey	53	24	1	—	—	154	87	1	14
+New York (excluding New York City)	24	6	—	—	—	1,112	155	—	13
+New York City	61	32	—	—	—	84	14	1	—
+Pennsylvania	N	3	—	1	—	94	11	—	8
+East North Central	135	52	4	4	—	714	105	2	128
+Illinois	47	17	2	4	—	11	27	1	1
+Indiana	4	3	—	—	—	—	—	—	39
+Michigan	38	9	1	—	—	15	3	—	3
+Ohio	23	5	1	—	—	4	17	—	—
+Wisconsin	23	18	—	—	—	684	58	1	85
+West North Central	97	19	1	—	—	680	364	24	53
+Iowa	29	4	1	—	—	11	10	—	3
+Kansas	7	2	—	—	—	1	47	2	1
+Minnesota	23	11	—	—	—	638	6	1	32
+Missouri	25	1	—	—	—	12	299	20	14
+Nebraska	9	1	—	—	—	—	1	1	—
+North Dakota	N	—	—	—	—	17	1	—	3
+South Dakota	4	—	—	—	—	1	—	—	—
+South Atlantic	276	49	—	1	—	52	281	2	13
+Delaware	1	1	—	—	—	9	26	1	—
+District of Columbia	4	5	—	—	—	—	—	—	—
+Florida	113	16	—	—	—	9	16	—	2
+Georgia	22	5	—	—	—	—	2	—	1
+Maryland	37	9	—	—	—	8	47	1	—
+North Carolina	63	3	—	—	—	9	70	—	—
+South Carolina	14	—	—	—	—	—	—	—	4
+Virginia	18	10	—	1	—	15	114	—	5
+West Virginia	4	—	—	—	—	2	6	—	1
+East South Central	6	6	—	—	—	25	198	4	13
+Alabama	N	—	—	—	—	6	11	—	—
+Kentucky	—	1	—	—	—	2	75	2	4
+Mississippi	N	2	—	—	—	—	15	—	4
+Tennessee	6	3	—	—	—	17	97	2	5
+West South Central	343	42	2	2	—	9	296	10	—
+Arkansas	2	—	—	—	—	5	197	9	—
+Louisiana	22	1	—	—	—	—	2	—	—
+Oklahoma	N	1	—	1	—	2	81	1	—
+Texas	319	40	2	1	—	2	16	—	—
+Mountain	61	14	—	1	—	10	—	—	—
+Arizona	8	3	—	—	—	4	—	—	—
+Colorado	29	4	—	1	—	N	N	N	N
+Idaho	N	1	—	—	—	N	N	N	N
+Montana	3	—	—	—	—	4	—	—	—
+Nevada	N	—	—	—	—	—	—	—	—
+New Mexico	4	—	—	—	—	N	N	N	N
+Utah	14	6	—	—	—	2	—	—	—
+Wyoming	3	—	—	—	—	—	—	—	—
+Pacific	71	178	—	—	—	9	1	—	3
+Alaska	1	1	—	—	—	N	N	N	N
+California	59	130	—	—	—	8	—	—	3
+Hawaii	—	22	—	—	—	N	N	N	N
+Oregon	2	7	—	—	—	—	1	—	—
+Washington	9	18	—	—	—	1	—	—	—
+Territories	—	512	—	—	1	—	—	—	—
+American Samoa	N	500	—	—	—	N	N	N	N
+Commonwealth of Northern Mariana Islands	—	—	—	—	—	—	—	—	—
+Guam	—	—	—	—	1	N	N	N	N
+Puerto Rico	—	11	—	—	—	N	N	N	N
+U.S. Virgin Islands	—	1	—	—	—	—	—	—	—
+
+—: No reported cases - The reporting jurisdiction did not submit any cases to CDC.
+N: Not reportable - The disease or condition was not reportable by law, statute, or regulation in the reporting jurisdiction.
+U: Unavailable - The data are unavailable.
+
+* Total number of reported laboratory-positive dengue cases, including all confirmed cases [by anti-dengue virus (DENV) molecular diagnostic methods or seroconversion of anti-DENV IgM] and all probable cases (by a single, positive anti-DENV IgM).
+
+
+Notes:
+
+	These are annual cases of selected infectious 
+	national notifiable diseases from the National Notifiable Diseases Surveillance System (NNDSS). 
+	NNDSS data reported by the 50 states, New York City, the District of Columbia, and the U.S. territories are 
+	collated and published. Cases are reported by state health departments to CDC weekly. Because source datasets 
+	may be updated as additional information is received, statistics in publications based on that source data may 
+	differ from what is presented in these tables. 
+
+	The list of nationally notifiable infectious diseases and conditions for 2018 and their national surveillance case definitions are 
+	available by navigating to the https://ndc.services.cdc.gov/, Surveillance Case Definitions | CDC  web page, selecting 
+	"2017" for the notifiable condition list year, checking "infectious" conditions, and clicking "Get Notifiable List by Year".  
+	This list incorporates the Council of State and Territorial Epidemiologists (CSTE) position statements approved in 2016 by CSTE 
+	for national surveillance, that were implemented in January 2017, including updated surveillance case definitions for 
+	salmonellosis, shigellosis, vibrioisis, perinatal hepatitis B virus infection, invasive pneumococcal disease, Lyme disease, 
+	and tularemia reported through August 7, 2018. Publication criteria for the finalized 2017 data are available at 
+	https://wonder.cdc.gov/nndss/documents/2017_NNDSS_Publication_Criteria.pdf, https://wonder.cdc.gov/nndss/documents/2017_NNDSS_Publication_Criteria.pdf.   
+	See also https://wwwn.cdc.gov/nndss/document/Users_guide_WONDER_tables_cleared_final.pdf, 
+	Guide to Interpreting Provisional and Finalized NNDSS Data. 
+
+	Population estimates for incidence rates are July 1st, 2017 estimates obtained from the National Center for Health Statistics (NCHS) 
+	postcensal estimates of the resident population of the United States for April 1, 2010 - July 1, 2017, by year, county, single year 
+	of age (range: 0 to 85 years), bridged-race (white, black or African American, American Indian or Alaska Native, Asian, 
+	or Pacific Islander), Hispanic ethnicity (not Hispanic or Latino, Hispanic or Latino), and sex (Vintage 2017), 
+	prepared under a collaborative arrangement with the U.S. Census Bureau. Population estimates for states released 
+	June 27, 2018 are available at 
+	https://www.cdc.gov/nchs/nvss/bridged_race/data_documentation.htm, https://www.cdc.gov/nchs/nvss/bridged_race/data_documentation.htm. 
+	Population estimates for territories are the 2017 mid-year estimates from the U.S. Census Bureau International Data Base, accessed on 
+	October 2, 2018 at  
+	https://www.census.gov/data-tools/demo/idb/informationGateway.php, https://www.census.gov/data-tools/demo/idb/informationGateway.php. 
+	The choice of population denominators 
+	for incidence is based on the availability of population data at the time of publication preparation. 
+
+	Annual tables for 2016 and later years are available on https://wonder.cdc.gov/nndss/nndss_annual_tables_menu.asp, CDC WONDER.
+
+	Annual summary reports from 1993-2015 are available as published in the 
+	https://www.cdc.gov/mmwr/mmwr_nd/index.html, MMWR.
+
+	NNDSS annual tables since 1952 are available at https://stacks.cdc.gov/nndss, CDC Stacks
+	(once in CDC Stacks select "Annual Reports" in the "Genre" box to the left).  
+	
+Suggested Citation:
+
+	Centers for Disease Control and Prevention. National Notifiable Diseases Surveillance System, 2017 Annual Tables of Infectious Disease Data. Atlanta, GA. CDC Division of Health Informatics and Surveillance, 2018. 
+	Available at: https://www.cdc.gov/nndss/data-statistics/infectious-tables/index.html, https://www.cdc.gov/nndss/data-statistics/infectious-tables/index.html.
+
+
+https://www.cdc.gov/nndss/, National Notifiable Diseases Surveillance System
+
+Provided by https://wonder.cdc.gov, CDC WONDER
+
+
+

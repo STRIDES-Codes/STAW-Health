@@ -29,7 +29,7 @@ The workflow overview below shows where we got data and how it was processed to 
 
 # The Team, the team, the team:
 
-![](final elf-icon size.png) 
+![ELF logo](final elf-icon size.png) 
 
 Emerging Leaders in Data Science Fellows (ELFs),
 Office of Data Science and Emerging Technologies (ODSET),National Institute of Allergies and Infectious Diseases (NIAID), National Institutes of Health (NIH)

@@ -36,18 +36,19 @@ Office of Data Science and Emerging Technologies (ODSET),
 National Institute of Allergies and Infectious Diseases (NIAID),   
 National Institutes of Health (NIH)
 
-**Sydney Foote**, Team Lead 🌞  
+**Sydney Foote**, Team Lead  
 **Mark Rustad**, Sysadmin  
 **Lisa Mayer**, Writer  
 **Meg Hartwick**, Float   
-**Sara Jones**, Float :smile_cat:
+**Sara Jones**, Float
 
 
 # How to use the Shiny app
 
 ## Access the app:
 
-Text about getting to the app will go here. 
+This is an online app that can be accessed by clicking [here](https://meghartwick.shinyapps.io/shiny/)
+
 
 ## Interact with the app:
 
@@ -64,7 +65,7 @@ Add advice here if needed.
 
 ## National Agricultural Workers Survey (NAWS)
  
-This survey is conducted by the U.S. Department of Labor, Employment and Training Administration. It is designed to assess both conditions of agricultural employment and demographics of workers. We used data from years XXXX to XXXX and extracted variables describing ----. These can be seen in summary/codebook here-.
+This survey is conducted by the U.S. Department of Labor, Employment and Training Administration. It is designed to assess both conditions of agricultural employment and demographics of workers. We used data from 2013 to 2016 and extracted variables pertaining to workers' demographics, income, healthcare access, baseline health, migrant status, and living conditions.
 
 More information and additional data access can be found on the [NAWS website](https://www.dol.gov/agencies/eta/national-agricultural-workers-survey/overview).
 
@@ -81,13 +82,21 @@ The NOAA Global Summary of the Year (GSOY) dataset includes a variety of climati
 Further documentation and more data is available through the [NOAA GSOY webpage](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00947).
 
 ## Intermediate datasets
-Here we'll write some stuff about our intermediate data.
+
+### From NAWS:
+We used R Studio in a virtual environment to transform raw data was into binary dummy variables, aiming to improve interpretability and emphasize criteria of highest interest. Variables associated with increased infectious disease risk were used to calculate a risk score at the individual level. The individual-level risks were averaged by region for each survey year.
+
+### From CDC:
+
+### From NOAA:
+
 
 ## Building the Shiny app
 Here we'll write some stuff about coding the app.
 
-# Additional Functionality
-If our app does anything else, we can talk about it here.
 
 # Future Functionality
-This is where we'll put stuff we want our app to do someday.
+- Additional years of data  
+- Ability to stratify by additional features such as race and ethnicity  
+- More granular data 
+- Projections based on past trends

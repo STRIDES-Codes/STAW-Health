@@ -20,7 +20,9 @@ clean_files <- function(file) {
   
   # list of column names
   colnames <- temp[4:(ind_1-2),1] %>% rowwise() %>%
-    mutate(lines = str_replace_all(lines, "<sup>NA</sup>", ""), lines = trimws(lines))
+    mutate(lines = str_replace_all(lines, "<sup>NA</sup>", ""),
+           lines = str_replace_all(lines, "\\*", ""),
+           lines = trimws(lines))
   colnames[[1,1]] = "ReportingArea"
   
   # separate column to columns
@@ -32,33 +34,51 @@ clean_files <- function(file) {
   data_s <- data_s %>% mutate(Year = yr)
   
   # fix 2019 Reported Area column
-  data_s <- data_s %>% mutate(ReportingArea = replace(ReportingArea,
-                                                         ReportingArea == "U.S. Residents, excluding U.S. Territories",
-                                                         "United States"))
+  data_s <- data_s %>%
+    mutate(ReportingArea = replace(ReportingArea,
+                                   ReportingArea == "U.S. Residents, excluding U.S. Territories",
+                                   "United States"))
   
   # add region column
   data_s <- data_s %>% mutate(Region = case_when(
     ReportingArea %in% c("North Carolina", "Virginia", "Kentucky", "Tennessee",
-                            "West Virginia", "Connecticut", "Maine", "Massachusetts",
-                            "New Hampshire", "New York City", "New York (excluding New York City)",
-                            "Rhode Island", "Vermont", "Delaware", "Maryland",
-                            "New Jersey", "Pennsylvania") ~ "EAST",
+                         "West Virginia", "Connecticut", "Maine", "Massachusetts",
+                         "New Hampshire", 
+                         "Rhode Island", "Vermont", "Delaware", "Maryland",
+                         "New Jersey", "Pennsylvania") ~ "EAST",
     ReportingArea %in% c("Arkansas", "Louisiana", "Mississippi", "Alabama",
-                            "Georgia", "South Carolina", "Florida") ~ "SOUTHEAST",
+                         "Georgia", "South Carolina", "Florida") ~ "SOUTHEAST",
     ReportingArea %in% c("Illinois", "Indiana", "Ohio", "Iowa", "Missouri",
-                            "Kansas", "Nebraska", "North Dakota", "South Dakota",
-                            "Michigan", "Minnesota", "Wisconsin") ~ "MIDWEST",
+                         "Kansas", "Nebraska", "North Dakota", "South Dakota",
+                         "Michigan", "Minnesota", "Wisconsin") ~ "MIDWEST",
     ReportingArea %in% c("Arizona", "New Mexico", "Oklahoma", "Texas") ~ "SOUTHWEST",
     ReportingArea %in% c("Idaho", "Montana", "Wyoming", "Colorado", "Nevada",
-                            "Utah", "Oregon", "Washington") ~ "NORTHWEST",
+                         "Utah", "Oregon", "Washington") ~ "NORTHWEST",
     ReportingArea %in% c("California") ~ "CALIFORNIA",
     ReportingArea %in% c("United States", "New England", "Middle Atlantic",
-                            "East North Central", "West North Central", "South Atlantic",
-                            "District of Columbia", "East South Central", "West South Central",
-                            "Mountain", "Pacific", "Alaska", "Hawaii", "Territories",
-                            "American Samoa", "Commonwealth of Northern Mariana Islands",
-                            "Guam", "Puerto Rico", "U.S. Virgin Islands") ~ "OTHER")) %>%
+                         "East North Central", "West North Central", "South Atlantic",
+                         "District of Columbia", "East South Central", "West South Central",
+                         "Mountain", "Pacific", "Alaska", "Hawaii", "Territories",
+                         "American Samoa", "Commonwealth of Northern Mariana Islands",
+                         "Guam", "Puerto Rico", "U.S. Virgin Islands",
+                         "New York City", "New York (excluding New York City)") ~ "OTHER")) %>%
     select(ReportingArea, Region, Year, !c(ReportingArea, Region, Year))
+  
+  # replace string "NA" with Na
+  data_s <- data_s %>% mutate(across(!c(ReportingArea:Year), ~na_if(., "NA")))
+  
+  # convert data to integer
+  data_s <- data_s %>% mutate(across(!c(ReportingArea:Region), ~str_replace_all(., ",", "")))
+  data_s <- data_s %>% mutate(across(!c(ReportingArea:Region), ~as.integer(.)))
+  
+  # create row for New York
+  nyrow <- data_s %>% filter(str_detect(ReportingArea, "New York")) %>% 
+    summarise(., across(where(is.numeric), sum), across(where(is.character), ~.)) %>% 
+    head(1) %>% select(c(ReportingArea, Region), !c(ReportingArea, Region)) %>% 
+    mutate(ReportingArea = "New York", Year = as.integer(yr), Region = "EAST")
+  
+  # add row to end of df
+  data_s <- bind_rows(data_s, nyrow)
   
   return(data_s)
 }
@@ -90,3 +110,6 @@ df_2019 <- full_join(df_list[[10]], df_list[[11]], by = c("ReportingArea", "Regi
   full_join(., df_list[[13]], by = c("ReportingArea", "Region", "Year"))
 
 clean_CDC <- bind_rows(df_2016, df_2017, df_2018, df_2019)
+
+write_csv(clean_CDC,
+          file = "~/Spatial-forecasting-of-environmental-infectious-diseases-within-vulnerable-populations/data/cdc/clean_CDC.csv")

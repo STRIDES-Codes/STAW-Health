@@ -82,14 +82,15 @@ The NOAA Global Summary of the Year (GSOY) dataset includes a variety of climati
 Further documentation and more data is available through the [NOAA GSOY webpage](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00947).
 
 ## Intermediate datasets
+All analysis was done using R Studio in a virtual environment. 
 
 ### From NAWS:
-We used R Studio in a virtual environment to transform raw data was into binary dummy variables, aiming to improve interpretability and emphasize criteria of highest interest. Variables associated with increased infectious disease risk were used to calculate a risk score at the individual level. The individual-level risks were averaged by region for each survey year.
+Raw data was transformed into binary dummy variables, aiming to improve interpretability and emphasize criteria of highest interest. Variables associated with increased infectious disease risk were used to calculate a risk score at the individual level. The individual-level risks were averaged by region for each survey year.
 
 ### From CDC:
 
 ### From NOAA:
-
+All data from United States-based weather stations in GSOY was identified and combined. Average yearly temperature (F) and precipitation (in) values were calculated for regions. 
 
 ## Building the Shiny app
 Here we'll write some stuff about coding the app.

@@ -84,7 +84,7 @@ The NOAA Global Summary of the Year (GSOY) dataset includes a variety of climati
 Further documentation and more data is available through the [NOAA GSOY webpage](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00947).
 
 ## Intermediate datasets
-All analysis was done using R Studio in a virtual environment. 
+All analysis was done using R version 4.1.0 in a virtual RStudio environment. 
 
 ### From NAWS:
 Raw data was transformed into binary dummy variables, aiming to improve interpretability and emphasize criteria of highest interest. Variables associated with increased infectious disease risk were used to calculate a risk score at the individual level. The individual-level risks were averaged by region for each survey year. Since the NAWS dataset ends in 2016, we had to recode the years, 2013-2016, for NAWS to match the years in the CDC dataset, 2016-2019. 

@@ -24,7 +24,7 @@ This project will begin to fill the research gap by integrating data sources and
 
 The workflow overview below shows where we got data and how it was processed to create our Shiny app.
 
-![Workflow diagram](Workflow_disparities_codeathon.png)
+![Workflow diagram](New_workflow.png)
 
 
 # The Team, the team, the team:

@@ -6,7 +6,7 @@ This project was part of the [June 2021 Health Disparities Codeathon run by the 
 
 # What are environmental infectious diseases?
 
-We use this term to include any infectious disease that has an environmental component in transmission. This could include mosquito-borne, tick-borne, fungal, zoonotic, waterborne, and soil-based diseases. Our initial tool will focus on Lyme Disease, Cryptosporidosis ("Crypto"), Dengue, Malaria, and Campylobacteriosis ("Camp").
+We use this term to include any infectious disease that has an environmental component in transmission. This could include mosquito-borne, tick-borne, fungal, zoonotic, waterborne, and soil-based diseases. Our initial tool will focus on Lyme Disease, Cryptosporidosis ("Crypto"), Dengue, Malaria, Cyclosporiasis ("Cyclo"), and Campylobacteriosis ("Camp").
 
 # What is the problem?
 

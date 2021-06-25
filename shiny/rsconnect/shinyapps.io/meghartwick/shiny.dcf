@@ -1,0 +1,13 @@
+name: shiny
+title: shiny
+username:
+account: meghartwick
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4315013
+bundleId: 4752976
+url: https://meghartwick.shinyapps.io/shiny/
+when: 1624564772.27707
+lastSyncTime: 1624564772.27708
+asMultiple: FALSE
+asStatic: FALSE

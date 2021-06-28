@@ -24,12 +24,12 @@ This project will begin to fill the research gap by integrating data sources and
 
 The workflow overview below shows where we got data and how it was processed to create our Shiny app.
 
-![Workflow diagram](New_workflow.png)
+![Workflow diagram](/figures/New_workflow.png)
 
 
 # The Team, the team, the team:
 
-![ELF logo](final_elf_icon_size.png) 
+![ELF logo](/figures/final_elf_icon_size.png) 
 
 Emerging Leaders in Data Science Fellows (ELFs),  
 Office of Data Science and Emerging Technologies (ODSET),  
@@ -45,7 +45,7 @@ National Institutes of Health (NIH)
 
 # How to use the Shiny app
 
-![Shiny Map](mapforcodeathon.PNG)
+![Shiny Map](/figures/mapforcodeathon.PNG)
 
 ## Access the app:
 

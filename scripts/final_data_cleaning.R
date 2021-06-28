@@ -25,7 +25,7 @@ NAWS_clean <- NAWS %>%
 NOAA_clean <- NOAA %>%
   filter("region_name" != "OTHER") %>%
   rename(., year = DATE,region = region_name, weather_temp_avg = region_temp, weather_prcp_avg = region_prcp) %>%
-  dplyr::select("region", "year","weather_temp_avg", "weather_prcp_avg") %>%
+  dplyr::select("region", "state","year","weather_temp_avg", "weather_prcp_avg") %>%
   .[!duplicated(.), ]
 
 NAWS_NOAA <- left_join(NAWS_clean, NOAA_clean, by = c("region", "year"))

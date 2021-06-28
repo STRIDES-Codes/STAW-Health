@@ -20,7 +20,7 @@ Accurately evaluating risk would illustrate the issue, encourage further researc
 
 # How are we going address this problem?
 
-This project will begin to fill the research gap by integrating data sources and creating a web app with R shiny to visualize risk. This visualization tool will be shared with anyone who may benefit; from farm workers themselves to health departments to policymakers. We hope that this analysis will bring attention to the issue, ultimately inspiring interventions to protect agricultural workers in the face of increasing risks.
+This project will begin to fill the research gap by integrating data sources and creating a web app with R Shiny to visualize risk. This visualization tool will be shared with anyone who may benefit, from farm workers themselves to health departments to policymakers. We hope that this analysis will bring attention to the issue, ultimately inspiring interventions to protect agricultural workers in the face of increasing risks.
 
 The workflow overview below shows where we got data and how it was processed to create our Shiny app.
 
@@ -54,9 +54,9 @@ This is an online app that can be accessed by clicking [here](https://meghartwic
 
 ## Interact with the app:
 
-1. The app will open with a map  of the U.S. and an insert including two drop menus ("Disease", "Year"). 
+1. The app will open with a map of the U.S. and an insert including two drop menus ("Disease", "Year"). 
 2. Use the dropdown menus to toggle between years and diseases. The map will dynamically change, showing disease counts per region of the U.S. 
-3. A second tab ("Data") displays a barchart that also dynamically changes with the dropdown menus.
+3. A second tab ("The Data") displays scattercharts showing how the average risk scores for agriculture workers changes by year and between regions.
 
 ## Troubleshooting
 
@@ -73,7 +73,7 @@ More information and additional data access can be found on the [NAWS website](h
 
 ## CDC National Notifiable Diseases Surveillance System (NNDSS)
 
-This is a repository of data reported by states for notifiable diseases maintained by the US CDC. We extracted yearly summary data from 2016 to 2019 using their built-in API for the diseases of interest (Lyme, Cryptosporidosis ("Crypto"), Dengue, and Campylobacteriosis ("Camp")).
+This is a repository of data reported by states for notifiable diseases maintained by the U.S. CDC. We extracted yearly summary data from 2016 to 2019 using their built-in API for the diseases of interest (Lyme, Cryptosporidosis ("Crypto"), Dengue, and Campylobacteriosis ("Camp")).
 
 Additional details and data for other diseases is available in the [NNDSS annual tables](https://wonder.cdc.gov/nndss/nndss_annual_tables_menu.asp).
 
@@ -96,7 +96,7 @@ Data was obtained from the CDC Wonder API, translated from text files into CSV f
 All data from United States-based weather stations in GSOY was identified and combined. Average yearly temperature (F) and precipitation (in) values were calculated for regions. 
 
 ## Building the Shiny app
-The app was built from R Studio in a virtual environment. Maps were rendered using the R package "leaflet".
+The app was built from RStudio in a virtual environment. Maps were rendered using the R package "leaflet".
 
 
 # Future Functionality

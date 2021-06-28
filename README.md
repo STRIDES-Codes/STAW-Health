@@ -1,7 +1,6 @@
-# Environmental infectious disease risk in agricultural workers
+# STAW-Health: Spatio-Temporal analysis of Agricultural Workers' Health disparities
 
-
-This project was part of the [June 2021 Health Disparities Codeathon run by the Office of Data Science Strategy at NIH and Howard University](https://datascience.nih.gov/participant-application-health-disparities-codeathon)
+Assessing environmental infectious disease risk in agricultural workers. This project was part of the [June 2021 Health Disparities Codeathon run by the Office of Data Science Strategy at NIH and Howard University](https://datascience.nih.gov/participant-application-health-disparities-codeathon)
 
 
 # What are environmental infectious diseases?
